@@ -6,7 +6,14 @@
 body {
   overflow-x: hidden;
   background: rgb(106,189,205);
-  background: linear-gradient(90deg, rgba(106,189,205,1) 0%, rgba(179,224,232,1) 44%, rgba(224,234,236,1) 100%);
+  background: linear-gradient(90deg, rgba(106,189,205,1) 0%, rgba(179,224,232,1) 44%, rgba(179,224,232,1) 100%);
+}
+#conteudo{
+ 
+  border-radius: 15px;
+  color: black;
+  font-size: 20px;
+  font-style: bold;
 }
 
 a {
@@ -43,6 +50,7 @@ main {
 .nav-list {
   list-style: none;
   display: flex;
+  margin-top: 1%;
 }
 
 .nav-list li {
@@ -130,7 +138,7 @@ main {
 	background-repeat: no-repeat;
 }
 .banner .info{
-	margin-top:20%;
+	margin-top:15%;
 	transform: translateY(-15%);
   
 }
@@ -198,7 +206,7 @@ main {
   height: 100%;
   width: 100%;
   background-color: #B9D9EB;
-  border-radius: 25px 25px 0 25px;
+  border-radius: 10%;
 }
 
 .overlay::before,
@@ -238,6 +246,7 @@ main {
   font-size: 25px;
   font-weight: 500;
   color: #333;
+  text-align: center;
 }
 
 .description{
@@ -302,7 +311,9 @@ background: #ffffff;
   justify-content: center;
   text-align: center;
 }
-
+#bannertxt{
+  font-size: 0.75vw;
+}
 @media screen and (max-width: 768px) {
   .slide-content{
     margin: 0 10px;
