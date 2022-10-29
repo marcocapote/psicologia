@@ -15,7 +15,13 @@ body {
   font-size: 20px;
   font-style: bold;
 }
-
+#logopos{
+  background-color: #a0a0a0;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.3s ease-out 100ms
+ 
+}
 a {
   color: #fff;
   text-decoration: none;
