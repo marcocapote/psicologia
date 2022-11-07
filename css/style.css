@@ -16,11 +16,17 @@ body {
   font-style: bold;
 }
 #logopos{
-  background-color: #a0a0a0;
+  background-color: #ffffff;
   width: 150px;
   height: 150px;
   transition: transform 0.3s ease-out 100ms
  
+}
+#faculdade{
+  border-radius: 15px;
+  color: black;
+  font-size: 20px;
+  font-style: bold;
 }
 a {
   color: #fff;
@@ -190,7 +196,10 @@ main {
   background-color: #FFF;
   
 }
-
+#card-slide{
+  border-radius: 35px;
+  
+}
 .image-content,
 .card-content{
   display: flex;
@@ -318,7 +327,9 @@ background: #ffffff;
   text-align: center;
 }
 #bannertxt{
-  font-size: 0.75vw;
+  margin-top: 10%;
+  word-wrap: break-word;
+  font-size: 10px;
 }
 @media screen and (max-width: 768px) {
   .slide-content{
